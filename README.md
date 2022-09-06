@@ -13,10 +13,12 @@ Changed README, added index
         <h1>Joshua Novick</h1>
         <h2><em>(He / Him / His)</em></h2>
         <p>I am excited for this course because I have <strong>always</strong> wanted to create websites.</p>
-        <p>My goals for this course include:</p>
-        <p>- Learn the basics of HTML</p>
-        <p>- Learn how to <em>stylistically</em> format a website</p>
-        <p>- Create a personal website</p>
+        My goals for this course include:
+        <ul>
+        <li>Learn the basics of HTML</li>
+        <li>Learn how to <em>stylistically</em> format a website</li>
+        <li>Create a personal website</li>
+        </ul>
         <p>I'm sure you have been dying to get to know me, so here is a little bit about myself. 
            Before we get started, here is a <a href="/img/josh.jpg" target="_blank">picture of myself</a> so you know what I look like, but I have also attached a picture to the website.
            I was born and raised in a suburb of Atlanta, GA. 
