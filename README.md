@@ -27,5 +27,10 @@ This will be my personal site
         <h2><em>Click on the picture to go to my LinkedIn profile</em></h2>
         <p><a href="https://www.linkedin.com/in/joshua-novick-92b9a7211/" target="_blank"><img src="./img/josh.jpg" width="470" height="600">
         </a><p>
+        <h2><em>Graphic Design Projects</em></h2>
+        <ul>
+        <li><a href="https://drive.google.com/drive/u/0/folders/1-3lECT8kDPYArfmJjBmSYsFwlQdVH1NR" target="_blank"> Link to my study abroad vlog</a></li>
+        <li><a href="https://drive.google.com/drive/u/0/folders/1eW4j-jCW4fbymetBDgyKjat6pf5NWOW5" target="_blank"> Link to Hydroflask commercials</a></li>
+        </ul>
     </body>
 </html>
