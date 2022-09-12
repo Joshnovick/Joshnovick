@@ -1,0 +1,50 @@
+/*Playing around with CSS. This will also be my CSS document for my perosnal website*/
+
+/*General Styles*/
+h1{
+    color: darkgreen;
+}
+
+h2{
+    color: darkblue;
+}
+
+p{
+    color: black;
+}
+/*
+span{
+    color: orange;
+    font-weight: bold;
+}
+*/
+/*Lists*/
+li{
+    color: black;
+    list-style-type: circle;
+}
+
+li em{
+    color: red;
+    font-weight: bold;
+}
+
+/*Classes*/
+/*
+.special{
+    color: orange;
+    font-weight: bold;
+}
+*/
+/*Links*/
+a:link{
+    color: rgb(177, 16, 16);
+}
+
+a:visited{
+    color: rgb(114, 42, 186);
+}
+
+a:hover{
+    text-decoration: none;
+}
