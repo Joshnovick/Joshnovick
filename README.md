@@ -25,7 +25,7 @@ This will be my personal site
         </p>
         <p>Here is a link to my favorite music video. <a href="https://www.youtube.com/watch?v=vHU6ZRQJ50Q" target="_blank">G.O.M.D By: J. Cole</a></p>
         <h2><em>Click on the picture to go to my LinkedIn profile</em></h2>
-        <p><a href="https://www.linkedin.com/in/joshua-novick-92b9a7211/" target="_blank"><img src="./img/josh.jpg" width="470" height="600">
+        <p><a href="https://www.linkedin.com/in/joshua-novick-92b9a7211/" target="_blank"><img src="./img/josh.jpg" alt="My LinkedIn profile picture" width="470" height="600">
         </a><p>
         <h2><em>Graphic Design Projects</em></h2>
         <ul>
