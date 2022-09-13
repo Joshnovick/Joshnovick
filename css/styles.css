@@ -1,6 +1,6 @@
-/*Playing around with CSS. This will also be my CSS document for my perosnal website*/
+/* Playing around with CSS. This will also be my CSS document for my perosnal website */
 
-/*General Styles*/
+/* General Styles */
 h1{
     color: darkgreen;
 }
@@ -18,7 +18,7 @@ span{
     font-weight: bold;
 }
 */
-/*Lists*/
+/* Lists */
 li{
     color: black;
     list-style-type: circle;
@@ -29,7 +29,7 @@ li em{
     font-weight: bold;
 }
 
-/*Classes*/
+/* Classes */
 /*
 .special{
     color: orange;
