@@ -25,7 +25,6 @@ html {
   box-sizing: border-box;
   border: 0.2em;
   border-radius: 1.5em;
-
   height: 3.125em;
   padding: .625em;
   font-size: 1.25em;
@@ -45,7 +44,6 @@ html {
   max-height: 100%;
   float: right;
   height: 7.5em;
-  background-color: rgb(0, 0, 0, 0.2)
 }
 
 .card header + footer p{
@@ -57,9 +55,13 @@ html {
   line-height: .9375em;
 }
 
-.card article p{
-  color: rgb(224, 221, 221);
+.card article{
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 0em .75em;
+}
+
+.card article p{
+  color: aliceblue
 }
 
 /* Styles specfic to card container */
