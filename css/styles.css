@@ -19,6 +19,7 @@ span{
 }
 */
 /* Lists */
+
 li{
     color: black;
     list-style-type: circle;
@@ -29,13 +30,13 @@ li em{
     font-weight: bold;
 }
 
+
 /* Classes */
 /*
-.special{
-    color: orange;
-    font-weight: bold;
+.assignments li{
 }
-*/
+
+
 /*Links*/
 a:link{
     color: rgb(177, 16, 16);
