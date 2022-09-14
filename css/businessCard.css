@@ -24,8 +24,9 @@ html {
   background-image: linear-gradient(to bottom, rgb(129, 0, 0), rgb(255, 0, 0));
   box-sizing: border-box;
   border: 0.2em;
-  border-radius: 1.5em;
+  border-radius: 1em;
   height: 3.125em;
+  margin-bottom: 6.7;
   padding: .625em;
   font-size: 1.25em;
   line-height: .9375em;
@@ -35,8 +36,9 @@ html {
   background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(129, 0, 0));
   box-sizing: border-box;
   border: 0.2em;
-  border-radius: 1.5em;
+  border-radius: 1em;
   height: 3.125em;
+  margin-top: 3.5em;
   padding: .625em;
 }
 
@@ -57,6 +59,7 @@ html {
 
 .card article{
   background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 4em;
   padding: 0em .75em;
 }
 
