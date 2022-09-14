@@ -16,16 +16,26 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    font-style: italic;
 }
 
 ul {
     background-color: #eeeeee;
     border: 5px solid purple;
-    padding: 1em;
+    padding: 2em;
     margin: 0em;
 }
 
 /* Classes and Links */
+.biography {
+    width: 30em;
+    height: 70em;
+    margin: 5em auto;
+    background-color: white;
+    /*border: 0.2em solid black;*/
+    border-radius: 1.5em;
+}
+
 .job-title {
     color: #999999;
     font-weight: bold;
