@@ -1,16 +1,19 @@
-/* General styles */
+/* General styles*/
+
 body {
   margin: 0;
 }
-  
+
 html {
   font-family: 'Helvetica neue', Arial, 'sans serif';
   font-size: 10px;
   background-color: #ccc;
 }
 
+/* Selectors to be matched up with rulesets */
+
 /* Rulesets to be matched up with selectors */
-  
+
 .card {
   width: 35em;
   height: 22em;
@@ -21,53 +24,42 @@ html {
 }
 
 .card header{
-  background-image: linear-gradient(to bottom, rgb(182, 0, 0), rgb(255, 0, 0));
-  box-sizing: border-box;
-  border: 0.2em;
-  border-radius: 1em;
-  height: 3.125em;
-  margin-bottom: 6.7;
-  padding: .625em;
-  font-size: 1.25em;
-  line-height: .9375em;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
 }
 
 .card footer{
-  background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(182, 0, 0));
-  box-sizing: border-box;
-  border: 0.2em;
-  border-radius: 1em;
-  height: 3.125em;
-  margin-top: 3.5em;
-  padding: .625em;
-  font-weight: bold;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  border-radius: 0 0 1.5em 1.5em;
 }
 
 .card article img{
   max-height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 10.5em;
   float: right;
-  height: 7.5em;
 }
 
-.card header + footer p{
+.card h2{
   margin: 0em;
+  font-size: 2em;
+  font-weight: bold;
+  height: 1.5em;
+  padding: .625em;
 }
 
 .card footer p{
-  font-size: 1.25em;
-  line-height: .9375em;
-}
-
-.card article{
-  background-color: rgba(0, 0, 0, 0.2);
-  margin-top: 4em;
-  padding: 0em .75em;
+  margin-top: 1em;
+  font-size: 1.4em;
+  font-weight: bold;
+  height: 1.875em;
+  padding: .625em;
 }
 
 .card article p{
-  color: aliceblue
+  margin: 0em;
+  color: rgb(226, 226, 226);
+  background-color: rgba(0, 0, 0, 0.253);
+  padding: .9375em;
+  line-height: 1.25em;
 }
-
-/* Styles specfic to card container */
-/* Styles spcific to header */
-/* Styles specific to footer */

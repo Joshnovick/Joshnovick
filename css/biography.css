@@ -22,14 +22,14 @@ h2 {
 ul {
     background-color: #eeeeee;
     border: 5px solid purple;
-    padding: 2em;
+    padding: 1.5em;
     margin: 0em;
 }
 
 /* Classes and Links */
 .biography {
-    width: 30em;
-    height: 70em;
+    width: 35em;
+    height: 50em;
     margin: 5em auto;
     background-color: white;
     /*border: 0.2em solid black;*/
