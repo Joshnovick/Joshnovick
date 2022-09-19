@@ -1,16 +1,25 @@
 /* Playing around with CSS. This will also be my CSS document for my perosnal website */
 
 /* General Styles */
+
+html {
+    background-color: #EBEBEB
+}
+
 h1{
-    color: darkgreen;
+    color: #376782;
 }
 
 h2{
-    color: darkblue;
+    color: #376782;
 }
 
 p{
-    color: black;
+    color: #2A3547;
+}
+
+strong{
+    color: #376782;
 }
 /*
 span{
@@ -21,12 +30,12 @@ span{
 /* Lists */
 
 li{
-    color: black;
+    color: #2A3547;
     list-style-type: circle;
 }
 
 li em{
-    color: red;
+    color: #376782;
     font-weight: bold;
 }
 
@@ -39,13 +48,14 @@ li em{
 
 /*Links*/
 a:link{
-    color: rgb(177, 16, 16);
+    color: #80A8BD;
 }
 
 a:visited{
-    color: rgb(114, 42, 186);
+    color: #80A8BD;
 }
 
 a:hover{
     text-decoration: none;
+    color: #A4BDC7
 }
