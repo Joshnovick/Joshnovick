@@ -1,53 +1,66 @@
-/* Playing around with CSS. This will also be my CSS document for my perosnal website */
+/* This is the CSS document for my perosnal website */
 
 /* General Styles */
 
 html {
-    background-color: #EBEBEB
+    background-color: #C5EDFC
 }
 
 p{ /** Neue Haas Grotesk Display Pro 55 Roman **/
-    color: #2A3547;
+    color: black;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
+img{
+    border: #523515 solid 4pt;
+    border-radius: 4pt;
+    width: 170pt;
+    height: 222pt;
+}
+
  /** Headings **/
 
 h1{ /** Neue Haas Grotesk Display Pro 95 Black **/
-    color: #376782;
+    color: #084058;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 900;
     font-style: normal;
 }
 
 h2{ /** Neue Haas Grotesk Display Pro 75 Bold **/
-    color: #376782;
+    color: #084058;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 700;
     font-style: normal;
+    border-bottom: #084058 solid 4pt;
+    
 }
 
-h3{ /** Neue Haas Grotesk Display Pro 75 Bold **/
+h3{ /** Neue Haas Grotesk Display Pro 65 Medium **/
+    color: #084058;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 600;
     font-style: normal;
 }
 
 h4{ /** Neue Haas Grotesk Display Pro 45 Light **/
+    color: #523515;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 h5{ /** Neue Haas Grotesk Display Pro 35 Extra Light **/
+    color: #084058;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
 h6{ /** Neue Haas Grotesk Display Pro 25 Thin **/
+    color: #084058;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -56,38 +69,78 @@ h6{ /** Neue Haas Grotesk Display Pro 25 Thin **/
 /** Text Features **/
 
 strong{
-    color: #376782;
+    color: #084058;
 }
 
 /* Lists */
 
-li{
-    color: #2A3547;
-    list-style-type: circle;
+ul {
+    list-style: disc;
+    color: black;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ol {
+    list-style-type: upper-roman;
+    color: black;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 li em{
-    color: #376782;
+    color: #084058;
     font-weight: bold;
 }
 
 
 /* Classes */
-/*
-.assignments li{
+
+.circle{
+    list-style: circle;
 }
 
+.goals{
+    border: #523515 solid 4pt;
+    border-radius: 4pt;
+    width: 260pt;
+    height: 100pt;
+    padding-left: 15pt;
+}
+
+.button p{
+    box-sizing: border-box;
+    color: #FFC27D;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background: #084058;
+    width: 50pt;
+    height: 50pt;
+    padding: 16pt 20pt 5pt 7pt;
+}
 
 /*Links*/
 a:link{
-    color: #80A8BD;
+    color: #523515;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 a:visited{
-    color: #80A8BD;
+    color: #523515;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 a:hover{
     text-decoration: none;
-    color: #A4BDC7
+    color: #523515;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
