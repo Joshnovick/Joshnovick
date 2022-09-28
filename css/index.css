@@ -2,7 +2,7 @@
 
 /* General Styles */
 
-html {
+html{
     background-color: #C5EDFC
 }
 
@@ -14,10 +14,16 @@ p{ /** Neue Haas Grotesk Display Pro 55 Roman **/
 }
 
 img{
-    border: #523515 solid 4pt;
-    border-radius: 4pt;
-    width: 170pt;
-    height: 222pt;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+nav{
+    background-color: #084058;
+    padding: .5em;  
+    position: sticky;
+    top: 0;
+    height: 50px;
 }
 
  /** Headings **/
@@ -66,6 +72,23 @@ h6{ /** Neue Haas Grotesk Display Pro 25 Thin **/
     font-style: normal;
 }
 
+/** Compound Styles **/
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+nav a{
+    color: #FFC27D !important;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
 /** Text Features **/
 
 strong{
@@ -74,7 +97,7 @@ strong{
 
 /* Lists */
 
-ul {
+ul{
     list-style: disc;
     color: black;
     font-family: neue-haas-grotesk-display, sans-serif;
@@ -82,7 +105,7 @@ ul {
     font-style: normal;
 }
 
-ol {
+ol{
     list-style-type: upper-roman;
     color: black;
     font-family: neue-haas-grotesk-display, sans-serif;
@@ -90,13 +113,19 @@ ol {
     font-style: normal;
 }
 
-li em{
-    color: #084058;
-    font-weight: bold;
-}
-
-
 /* Classes */
+
+.button{
+    box-sizing: border-box;
+    color: #FFC27D;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background: #084058;
+    width: 50pt;
+    height: 50pt;
+    padding: 16pt 20pt 5pt 7pt;
+}
 
 .circle{
     list-style: circle;
@@ -111,16 +140,19 @@ li em{
     padding-bottom: 10pt;
 }
 
-.button p{
-    box-sizing: border-box;
-    color: #FFC27D;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    background: #084058;
-    width: 50pt;
-    height: 50pt;
-    padding: 16pt 20pt 5pt 7pt;
+.grid{
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 500px;
+}
+
+.profilePic{
+    border: #523515 solid 4pt;
+    border-radius: 4pt;
+    width: 170pt;
+    height: 222pt;
 }
 
 /*Links*/
@@ -145,3 +177,26 @@ a:hover{
     font-weight: 600;
     font-style: normal;
 }
+/**
+#nav a:link{
+    color: #FFC27D;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#nav a:visited{
+    color: #FFC27D;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#nav a:hover{
+    text-decoration: none;
+    color: #FFC27D;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+**/
