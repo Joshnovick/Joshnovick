@@ -3,12 +3,16 @@
 /* General Styles */
 
 html{
-    background-color: #C5EDFC
+    background-color: #C5EDFC;
 }
 
 img{
     max-height: 100%;
     max-width: 100%;
+}
+
+body{
+    margin: 0;
 }
 
 nav{
@@ -141,7 +145,6 @@ ol{
     background: #084058;
     width: 120px;
     height: 100px;
-    border: #C5EDFC solid 2pt;
     padding-top: 30px;
     text-align: center;
 }
@@ -205,9 +208,12 @@ a:visited{
 /** Mobile Query **/
 
 @media screen and (max-width: 500px){
+
     body{
+        width: fit-content;
         background: white;
     }
+
     .grid{
         margin: 0 auto;
         padding: 0 20px;
@@ -215,12 +221,19 @@ a:visited{
         grid-template-columns: 1fr;
         gap: 5px;
     }
+
+    .assignments{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
 }
 
 /** Tablet Query **/
 
 @media screen and (min-width: 501px) and (max-width: 1080px){
     body{
+        width: fit-content;
         background: greenyellow;
     }
     .grid{
@@ -229,5 +242,12 @@ a:visited{
         display: grid;
         grid-template-columns: 1fr;
         gap: 5px;
+    }
+
+    .assignments{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        gap: 100px;
     }
 }
