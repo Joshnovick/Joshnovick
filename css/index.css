@@ -211,7 +211,6 @@ a:visited{
 
     body{
         width: fit-content;
-        background: white;
     }
 
     .grid{
@@ -234,7 +233,6 @@ a:visited{
 @media screen and (min-width: 501px) and (max-width: 1080px){
     body{
         width: fit-content;
-        background: greenyellow;
     }
     .grid{
         margin: 0 auto;
