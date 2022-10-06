@@ -13,6 +13,7 @@ img{
 
 body{
     margin: 0;
+    margin-right: 0;
 }
 
 nav{
@@ -39,6 +40,7 @@ h1{ /** Neue Haas Grotesk Display Pro 95 Black **/
     font-weight: 900;
     font-style: normal;
     font-size: 40pt;
+    text-align: center;
 }
 
 h2{ /** Neue Haas Grotesk Display Pro 75 Bold **/
@@ -85,9 +87,13 @@ h6{ /** Neue Haas Grotesk Display Pro 25 Thin **/
 
 /** Compound Styles **/
 
-nav a{
+nav a{ /** Neue Haas Grotesk Display Pro 65 Medium **/
     box-sizing: border-box;
     color: #FFC27D !important;
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-size: 25pt !important;
     text-decoration: none;
     width: 100px;
 }
@@ -143,7 +149,7 @@ ol{
     font-weight: 600;
     font-style: normal;
     background: #084058;
-    width: 120px;
+    width: 150px;
     height: 100px;
     padding-top: 30px;
     text-align: center;
@@ -172,53 +178,55 @@ ol{
     padding: 0 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-rows: 650px 650px;
+    gap: 100px;
 }
 
 .profilePic{
     border: #523515 solid 4pt;
     border-radius: 4pt;
-    width: 170pt;
-    height: 222pt;
+    width: 488px;
+    height: 650px;
+    margin-bottom: 20px;
 }
 
 /*Links*/
-a:link{
+a:link{ /** Neue Haas Grotesk Display Pro 45 Light **/
     color: #523515;
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
+    font-size: 18pt;
+
 }
 
-a:hover{
+a:hover{ /** Neue Haas Grotesk Display Pro 45 Light **/
     text-decoration: none;
     color: #523515;
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
+    font-size: 18pt;
 }
 
-a:visited{
+a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
     color: #523515;
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
+    font-size: 18pt;
 }
 
 /** Mobile Query **/
 
 @media screen and (max-width: 500px){
 
-    body{
-        width: fit-content;
-    }
-
     .grid{
         margin: 0 auto;
         padding: 0 20px;
         display: grid;
         grid-template-columns: 1fr;
-        gap: 5px;
+        gap: 150px;
     }
 
     .assignments{
@@ -231,15 +239,13 @@ a:visited{
 /** Tablet Query **/
 
 @media screen and (min-width: 501px) and (max-width: 1080px){
-    body{
-        width: fit-content;
-    }
+
     .grid{
         margin: 0 auto;
         padding: 0 20px;
         display: grid;
         grid-template-columns: 1fr;
-        gap: 5px;
+        gap: 150px;
     }
 
     .assignments{
