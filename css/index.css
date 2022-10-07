@@ -14,7 +14,6 @@ img{
 body{
     margin: 0;
     margin-right: 0;
-    width: 100vw;
 }
 
 nav{
@@ -136,6 +135,10 @@ ol{
 
 /* Classes */
 
+.about{
+    width: fit-content;
+}
+
 .assignments{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -222,17 +225,15 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
 @media screen and (max-width: 500px){
 
     .grid{
-        margin: 0 auto;
-        padding: 0 20px;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .assignments{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .profilePic{
@@ -333,11 +334,10 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
 @media screen and (min-width: 501px) and (max-width: 1080px){
 
     .grid{
-        margin: 0 auto;
-        padding: 0 20px;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
     }
 
     .assignments{
