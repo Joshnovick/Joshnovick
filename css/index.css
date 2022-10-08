@@ -84,7 +84,7 @@ h3{ /** Neue Haas Grotesk Display Pro 65 Medium **/
 }
 
 h4{ /** Neue Haas Grotesk Display Pro 45 Light **/
-    color: #523515;
+    color: #084058;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -164,6 +164,14 @@ ul{
     list-style: circle;
 }
 
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 50px;
+    margin: 0;
+}
+
 .goals{
     border: #523515 solid 4pt;
     border-radius: 4pt;
@@ -181,12 +189,17 @@ ul{
     gap: 100px;
 }
 
-.profilePic{
+.pictures{
     border: #523515 solid 4pt;
     border-radius: 4pt;
-    width: 488px;
-    height: 650px;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.pictureGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
 }
 
 /*Links*/
@@ -269,11 +282,11 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
     }
     
     h4{ /** Neue Haas Grotesk Display Pro 45 Light **/
-        font-size: 15pt;
+        font-size: 18pt;
     }
     
     h5{ /** Neue Haas Grotesk Display Pro 35 Extra Light **/
-        font-size: 14pt;
+        font-size: 15pt;
     }
     
     h6{ /** Neue Haas Grotesk Display Pro 25 Thin **/
@@ -304,10 +317,16 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
         padding-top: 10px;
         text-align: center;
     }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
    
     .goals{
-        width: 300px;
-        height: 180px;
+        width: 200px;
+        height: 265px;
     }
 
     .grid{
@@ -317,9 +336,11 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
         gap: 0px;
     }
 
-    .profilePic{
-        width: 100%;
-        height: 100%;
+    .pictureGrid{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 10px;
     }
 
     /*Links*/
@@ -389,25 +410,25 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
     }
 
     h4{ /** Neue Haas Grotesk Display Pro 45 Light **/
-        font-size: 21pt;
+        font-size: 23pt;
     }
 
     h5{ /** Neue Haas Grotesk Display Pro 35 Extra Light **/
-        font-size: 19pt;
+        font-size: 21pt;
     }
 
     h6{ /** Neue Haas Grotesk Display Pro 25 Thin **/
-        font-size: 17pt;
+        font-size: 19pt;
     }
 
     /** Lists **/
 
     ol{
-        font-size: 13pt;
+        font-size: 15pt;
     }
 
     ul{
-        font-size: 13pt;
+        font-size: 15pt;
     }
 
     /** Classes**/
@@ -424,6 +445,13 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
         height: 80px;
         padding-top: 23px;
         text-align: center;
+    }
+
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .goals{
@@ -445,15 +473,15 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
 
     /*Links*/
     a:link{ /** Neue Haas Grotesk Display Pro 45 Light **/
-        font-size: 13pt;
+        font-size: 15pt;
 
     }
 
     a:hover{ /** Neue Haas Grotesk Display Pro 45 Light **/
-        font-size: 13pt;
+        font-size: 15pt;
     }
 
     a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
-        font-size: 13pt;
+        font-size: 15pt;
     }
 }
