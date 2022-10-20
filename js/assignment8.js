@@ -17,7 +17,6 @@ const insertX = new Array("John Snow",
                         "Avatar Aang",
                         "The Grinch");
 
-
 const insertY = new Array("Winterfell",
                         "the Easter Air Temple",
                         "the North Pole");
