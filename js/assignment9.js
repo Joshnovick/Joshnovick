@@ -21,7 +21,7 @@ let path = "xxx"
 for (const image of pix) {
     console.log(image);
     const newImage = document.createElement('img');
-    path = "./img/ica9/assignment9/" + image;
+    path = "../../img/ica9/assignment9/" + image;
     console.log(path);
     newImage.setAttribute('src', path);
     newImage.setAttribute('alt', alt[image]);
