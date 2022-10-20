@@ -9,13 +9,13 @@ function updateName() {
 
 window.onload = choosePic;
 
-const myPix = new Array("../../img/josh.jpg", 
-                      "../../img/berlin.png", 
-                      "../../img/copenhagen.png", 
-                      "../../img/finland.png", 
-                      "../../img/hikingPic.jpg", 
-                      "../../img/riga.png",
-                      "../../img/switzerland.png");
+const myPix = new Array("../../img/index/josh.jpg", 
+                      "../../img/index/berlin.png", 
+                      "../../img/index/copenhagen.png", 
+                      "../../img/index/finland.png", 
+                      "../../img/index/hikingPic.jpg", 
+                      "../../img/index/riga.png",
+                      "../../img/index/switzerland.png");
 
 function choosePic() {
      const randomNum = Math.floor(Math.random() * myPix.length);
