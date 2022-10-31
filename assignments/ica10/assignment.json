@@ -1,0 +1,59 @@
+{
+    "companyName": "Tech Stars",
+    "website": "www.techstars.site",
+    "formed": 2016,
+    "secretBase": "Super tower",
+    "active": true,
+    "employees": [
+        {
+            "firstName": "Sam",
+            "department": "Tech",
+            "designation": "Manager",
+            "salary": 40000,
+            "raiseEligible": true,
+            "powers": [
+                "Radiation resistance", 
+                "Turning tiny", 
+                "Radiation blast"
+            ]
+        },
+        {
+            "firstName": "Mary",
+            "department": "Finance",
+            "designation": "Trainee",
+            "salary": 18500,
+            "raiseEligible": true,
+            "powers": [
+                "Million tonne punch",
+                "Damage resistance",
+                "Superhuman reflexes"
+            ]
+        },
+        {
+            "firstName": "Bill",
+            "department": "HR",
+            "designation": "Executive",
+            "salary": 21200,
+            "raiseEligible": true,
+            "powers": [
+                "Immortality",
+                "Heat Immunity",
+                "Inferno",
+                "Teleportation",
+                "Interdimensional travel"
+            ]
+        },
+        {
+            "firstName": "Anna",
+            "department": "Tech",
+            "designation": "Executive",
+            "salary": 25600,
+            "raiseEligible": false,
+            "powers": [
+                "Radiation resistance", 
+                "Turning tiny", 
+                "Radiation blast"
+            ]
+        }
+    ]
+}
