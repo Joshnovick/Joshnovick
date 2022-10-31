@@ -11,11 +11,7 @@
             "designation": "Manager",
             "salary": 40000,
             "raiseEligible": true,
-            "powers": [
-                "Radiation resistance", 
-                "Turning tiny", 
-                "Radiation blast"
-            ]
+            "wfh": true
         },
         {
             "firstName": "Mary",
@@ -23,11 +19,7 @@
             "designation": "Trainee",
             "salary": 18500,
             "raiseEligible": true,
-            "powers": [
-                "Million tonne punch",
-                "Damage resistance",
-                "Superhuman reflexes"
-            ]
+            "wfh": false
         },
         {
             "firstName": "Bill",
@@ -35,13 +27,7 @@
             "designation": "Executive",
             "salary": 21200,
             "raiseEligible": true,
-            "powers": [
-                "Immortality",
-                "Heat Immunity",
-                "Inferno",
-                "Teleportation",
-                "Interdimensional travel"
-            ]
+            "wfh": false
         },
         {
             "firstName": "Anna",
@@ -49,11 +35,7 @@
             "designation": "Executive",
             "salary": 25600,
             "raiseEligible": false,
-            "powers": [
-                "Radiation resistance", 
-                "Turning tiny", 
-                "Radiation blast"
-            ]
+            "wfh": true
         }
     ]
 }

@@ -40,6 +40,7 @@ function populateEmployees(obj) {
         const myPara2 = document.createElement('p');
         const myPara3 = document.createElement('p');
         const myPara4 = document.createElement('p');
+        const myPara5 = document.createElement('p');
         const myList = document.createElement('ul');
     
         myH2.textContent = employee.firstName;
@@ -47,13 +48,12 @@ function populateEmployees(obj) {
         myPara2.textContent = `Designation: ${employee.designation}`;
         myPara3.textContent = `Salary: ${employee.salary}`;
         myPara4.textContent = `Raise Eligible: ${employee.raiseEligible}`;
-    
-        const employees_ = employee.powers;
-        for (const power of employees_) {
-            const listItem = document.createElement('li');
-            listItem.textContent = power;
-            myList.appendChild(listItem);
-        }
+        myPara5.textContent = `Working from Home: ${employee.wfh}`;
+
+        //if (employees["raiseEligible"] = true) {
+          //  const raise = Math.round(employee.salary*.10);
+           // employee.replace(employee.salary,raise);
+       // }
   
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
