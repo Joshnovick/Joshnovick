@@ -1,0 +1,169 @@
+/* General Styles */
+
+html {
+    box-sizing: border-box;
+    background-color: #C5EDFC;
+}
+
+h1 { /** Neue Haas Grotesk Display Pro 95 Black **/
+    color: #084058;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40pt;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+h2 { /** Neue Haas Grotesk Display Pro 65 Medium **/
+    color: #084058;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25pt;
+}
+
+p {/** Neue Haas Grotesk Display Pro 55 Roman **/
+    color: black;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18pt;
+}
+
+/* Classes */
+
+.app {
+    position: relative;
+    top: 45%;
+    /*left: 50%;
+    transform: translate(-50%, -50%);*/
+    width: 600px;
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: 0px 20px 5px 20px rgba(0,0,0,.14), 10px 20px 10px -6px rgba(0,0,0,.2), 10px 20px 20px 20px rgba(0,0,0,.12);
+}
+
+.button { /** Neue Haas Grotesk Display Pro 65 Medium **/
+    color: #084058;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25pt;
+    display: block;
+    color: #FFC27D;
+    border-radius: 60px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.controls {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 90px;
+}
+
+.jokes {
+    padding: 20px 50px;
+    min-height: 200px;
+}
+  
+.joke-text { /** Neue Haas Grotesk Display Pro 55 Roman **/
+    color: black;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18pt;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.new-joke {
+    background-color: #084058;
+    margin-bottom: 15px;
+}
+
+.picture{
+    border: #523515 solid 4pt;
+    border-radius: 4pt;
+    width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+    top: 45%;
+}
+
+.punchline {
+    background-color: #084058;
+    text-decoration: none;
+}
+
+.punchline-text { /** Neue Haas Grotesk Display Pro 55 Roman **/
+    color: black;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18pt;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+.thirdColumn {
+    position: relative;
+    top: 45%;
+}
+
+/* Links */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+  
+.new-joke:hover {
+    background-color: #523515;
+}
+  
+.new-joke:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.punchline:hover {
+    background-color: #523515;
+}
+
+/*Media Queries */
+
+@media screen and (max-width: 600px) {
+    .app {
+        width: 100%;
+    }
+    .new-joke {
+        font-size: 18px;
+    }
+}

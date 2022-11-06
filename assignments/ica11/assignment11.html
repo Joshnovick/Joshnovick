@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../../css/assignment11.css">
+        <link rel="stylesheet" href="https://use.typekit.net/gbg7tho.css">
+
+        <title>Funny Jokes</title>
+    </head>
+    <body class="grid">
+        <div>
+            <img class="picture" src="../../img/ica11/laughing.jpg" alt="A cartoon picture of a man laughing">
+        </div>
+        
+        <div class="app">
+            <h1>Funny Jokes</h1>
+
+            <div class="jokes">
+                <div class="joke-text" id="js-joke-text"></div>
+                <div onclick="displayPunchline()"  class="punchline-text" id="js-punchline-text"></div>
+            </div>
+
+            <div class="controls">
+                <button type="button" id="js-new-joke" class="new-joke button">
+                    Generate a joke
+                </button>
+                <!-- class="twitter button" id="js-twitter"-->
+                <button class="punchline button" id="js-punchline" rel="noreferrer">Get the punchline</button>
+            </div>
+        </div>
+
+        <div class="thirdColumn">
+            <h2>Explanation</h2>
+            <p>I used a joke generator API. Everytime you click the "Generate a joke" button, it fetches a new joke. In order to display the 
+               answer, click the "Get the punchline" button. To extend this assignment even further, I added a cartoon picture of a guy 
+               laughing. I used some CSS from my own website to make this my own design.
+            </p>
+        </div>
+        
+        <script src="../../js/assignment11.js"></script>
+    </body>
+</html>
