@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="../../css/ica12.css">
-    <script defer src="../../js/ica12.js"></script>
-</head>
-<body>
-    <div>
-        <p class="output"></p>
-    </div>
-    <form>
-        <input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number">
-        <input class="button" type="button" name="submit-button" value="Submit">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-    </form>
-</body>
+        <title>Bad Phone Generator</title>
+
+        <script defer src="../../js/ica12.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1> Please enter your phone number</h1>
+            <p class="output">1000000000</p>
+        </div>
+
+        <form>
+            <!--<input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number">-->
+            <input class="minusButton" type="button" name="minus-button" value="-">
+            <input class="plusButton" type="button" name="plus-button" value="+">
+            <input class="randomButton" type="button" name="random-button" value="Random">
+            <input class="resetButton" type="button" name="reset-button" value="Reset">
+            <input class="submitButton" type="button" name="submit-button" value="Submit">
+        </form>
+        
+        <div class="slideContainer">
+            <h1>Please enter your phone number</h1>
+            <input type="range" min="0" max="9999999999" value="8888888888" class="slider" id="myRange">
+            <input class="sliderButton" type="button" name="slider-button" value="Submit">
+            <p class="sliderOutput"></p>
+        </div>
+    </body>
 </html>

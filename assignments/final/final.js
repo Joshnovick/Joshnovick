@@ -1,3 +1,11 @@
+// Declaring variables and event listners for the different buttons
+const boxButton = document.querySelector(".boxButton")//.addEventListener("click", minus);
+const coneButton = document.querySelector(".coneButton")//.addEventListener("click", plus);
+const cylinderButton = document.querySelector(".cylinderButton")//.addEventListener("click", random);
+const ellipsoidButton = document.querySelector(".ellipsoidButton")//.addEventListener("click", reset);
+const sphereButton = document.querySelector(".sphereButton")//.addEventListener("click", submit);
+const torusButton = document.querySelector(".torusButton")//.addEventListener("click", submit);
+
 // Declaring global variables used for the sliders
 let detailRadius;
 let detailTubeRadius;
