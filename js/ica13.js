@@ -18,7 +18,7 @@ const alice1 = document.querySelector("#alice1");
 const alice2 = document.querySelector("#alice2");
 const alice3 = document.querySelector("#alice3");
 
-async function alice() {
+async function disappear() {
     await alice1.animate(aliceTumbling, aliceTiming).finished;
     await alice2.animate(aliceTumbling, aliceTiming).finished;
     alice3.animate(aliceTumbling, aliceTiming).finished;
@@ -30,5 +30,5 @@ async function reappear() {
     alice3.animate(aliceReappear, aliceTiming).finished;
 }
 
-const animateButton = document.querySelector(".animateButton").addEventListener("click",alice);
+const animateButton = document.querySelector(".disappearButton").addEventListener("click",disappear);
 const reappearButton = document.querySelector(".reappearButton").addEventListener("click",reappear);
