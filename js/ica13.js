@@ -25,9 +25,9 @@ async function disappear() {
 }
 
 async function reappear() {
-    await alice1.animate(aliceReappear, aliceTiming).finished;
+    await alice3.animate(aliceReappear, aliceTiming).finished;
     await alice2.animate(aliceReappear, aliceTiming).finished;
-    alice3.animate(aliceReappear, aliceTiming).finished;
+    alice1.animate(aliceReappear, aliceTiming).finished;
 }
 
 const animateButton = document.querySelector(".disappearButton").addEventListener("click",disappear);

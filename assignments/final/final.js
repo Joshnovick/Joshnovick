@@ -22,7 +22,6 @@ let detailCap;
 function setup() {
   createCanvas(800, 700, WEBGL);
   background(205, 102, 94); // Background color
-
 }
 
 // Cone
@@ -66,7 +65,7 @@ function setup() {
     cone(detailRadius.value(),detailHeight.value(),detailX.value(),detailY.value(),true); // Creates cone
   }
 
-/*
+
 // Cylinder
 
   // Function that setups the cylinder canvas and the sliders
@@ -257,10 +256,10 @@ function setup() {
     
     torus(detailRadius.value(), detailTubeRadius.value(), detailX.value(), detailY.value()); // Creates torus
   }
-*/
+
 
 //Display functions
   function displayCone() {
     setupCone();
-    //drawCone();
+    drawCone();
   }
