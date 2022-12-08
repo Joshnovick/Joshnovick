@@ -1,29 +1,60 @@
-// Declaring variables and event listners for the different buttons
-const coneButton = document.querySelector(".coneButton");//.addEventListener("click", setupCone);
-const cylinderButton = document.querySelector(".cylinderButton");//.addEventListener("click", random);
-const ellipsoidButton = document.querySelector(".ellipsoidButton");//.addEventListener("click", reset);
-const sphereButton = document.querySelector(".sphereButton");//.addEventListener("click", submit);
-const torusButton = document.querySelector(".torusButton");//.addEventListener("click", submit);
-
-// Declaring global variables used for the sliders
+// Declaring global variables
 let detailRadius;
 let detailTubeRadius;
 let detailX;
 let detailY;
-let detailWidth;
-let detailHeight;
-let detailRadiusX;
-let detailRadiusY;
-let detailRadiusZ;
-let detailBottomCap;
-let detailTopCap;
-let detailCap;
+let color_picker;
 
+// Functions to setup and draw the canvas and 3D primitive
 function setup() {
-  createCanvas(800, 700, WEBGL);
-  background(205, 102, 94); // Background color
+  // Setup Canvas
+    canvas_ = createCanvas(700, 700, WEBGL);
+    canvas_.position(800);
+
+  // Setup Color Picker
+    color_picker = createColorPicker("#FF591C");
+    color_picker.position(350, height - 100);
+
+  // Setup Torus
+    describe(
+      "a rotating white torus with limited radius, tube radius, X detail, and y detail, with a 4 sliders that adjusts each parameter"
+    );
+
+  // Creates radius slider
+    detailRadius = createSlider(10, 150, 50); // First number is the lowest number, second number is the highest number, and third number determines where the slider starts
+    detailRadius.position(150, height - 400); // Determines where the slider is positioned on the page
+    detailRadius.style("width", "150px"); // Determines the wdth of the slider
+
+  // Creates tube radius slider
+    detailTubeRadius = createSlider(10, 150, 50);
+    detailTubeRadius.position(450, height - 400);
+    detailTubeRadius.style("width", "150px");
+
+  // Creates detailX slider
+    detailX = createSlider(3, 24, 3);
+    detailX.position(150, height - 250);
+    detailX.style("width", "150px");
+
+  // Creates detailY slider
+    detailY = createSlider(3, 16, 3);
+    detailY.position(450, height - 250);
+    detailY.style('width', '150px'); 
 }
 
+function draw() {
+  // Draw Background
+  // Draw Color Picker
+    background(color_picker.color());
+
+  // Torus Animation
+    rotateX(frameCount * 0.01); // Rotation along x axis
+    rotateY(frameCount * 0.015); // Rotation along y axis
+    rotateZ(frameCount * 0.025); // Rotation along z axis
+
+  // Draw Torus
+    torus(detailRadius.value(), detailTubeRadius.value(), detailX.value(), detailY.value()); // Creates torus
+}
+/**
 // Cone
 
   // Function that setups the cone canvas and the sliders
@@ -263,3 +294,4 @@ function setup() {
     setupCone();
     drawCone();
   }
+**/
