@@ -125,7 +125,7 @@ ol{
 }
 
 ul{
-    list-style: disc;
+    list-style-image: url(../img/index/assignment.png);
     color: black;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
