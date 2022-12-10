@@ -211,8 +211,106 @@ ul{
 
 .pictureGrid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
+}
+
+/** Final Project Classes **/
+
+.colorPicker{
+    /** Text **/
+        /** Neue Haas Grotesk Display Pro 65 Medium **/
+        color: #ffc27d;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14pt;
+        text-align: center;
+    position: relative;
+    top: 230px;
+    left: 240px;
+    width: 270px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: #523515;
+    border-radius: 10px;
+}
+
+
+.detailXLabel{
+    /** Text **/
+        /** Neue Haas Grotesk Display Pro 65 Medium **/
+        color: #ffc27d;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14pt;
+        text-align: center;
+    position: relative;
+    top: 160px;
+    left: 135px;
+    width: 180px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: #523515;
+    border-radius: 10px;
+}
+
+.detailYLabel{
+    /** Text **/
+        /** Neue Haas Grotesk Display Pro 65 Medium **/
+        color: #ffc27d;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14pt;
+        text-align: center;
+    position: relative;
+    top: 115px;
+    left: 435px;
+    width: 180px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: #523515;
+    border-radius: 10px;
+}
+
+.radiusLabel{
+    /** Text **/
+        /** Neue Haas Grotesk Display Pro 65 Medium **/
+        color: #ffc27d;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14pt;
+        text-align: center;
+    position: relative;
+    top: 100px;
+    left: 142px;
+    width: 170px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: #523515;
+    border-radius: 10px;
+}
+
+.tubeRadiusLabel{
+    /** Text **/
+        /** Neue Haas Grotesk Display Pro 65 Medium **/
+        color: #ffc27d;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14pt;
+        text-align: center;
+    position: relative;
+    top: 55px;
+    left: 415px;
+    width: 220px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: #523515;
+    border-radius: 10px;
 }
 
 /*Links*/
@@ -264,7 +362,7 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
     /** Compound Styles **/
 
     nav a{ /** Neue Haas Grotesk Display Pro 65 Medium **/
-        font-size: 14pt !important;
+        font-size: 11pt !important;
         text-decoration: none;
         width: 50px;
     }
@@ -325,7 +423,7 @@ a:visited{ /** Neue Haas Grotesk Display Pro 45 Light **/
     }
 
     .button{
-        width: 80px;
+        width: 60px;
         height: 50px;
         padding-top: 10px;
         text-align: center;

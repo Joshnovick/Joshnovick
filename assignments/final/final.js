@@ -9,7 +9,7 @@ let color_picker;
 function setup() {
   // Setup Canvas
     canvas_ = createCanvas(700, 700, WEBGL);
-    canvas_.position(800);
+    canvas_.position(750,230);
 
   // Setup Color Picker
     color_picker = createColorPicker("#FF591C");
@@ -23,7 +23,7 @@ function setup() {
   // Creates radius slider
     detailRadius = createSlider(10, 150, 50); // First number is the lowest number, second number is the highest number, and third number determines where the slider starts
     detailRadius.position(150, height - 400); // Determines where the slider is positioned on the page
-    detailRadius.style("width", "150px"); // Determines the wdth of the slider
+    detailRadius.style("width", "150px"); // Determines the width of the slider
 
   // Creates tube radius slider
     detailTubeRadius = createSlider(10, 150, 50);
